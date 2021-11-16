@@ -1,0 +1,12 @@
+.bar{
+    width: 240px;
+    height: 30px;
+    display: grid;
+
+    border: 1px black solid;
+}
+.status{
+    width: 0px;
+    height: 100%;
+    background-color: red;
+}
