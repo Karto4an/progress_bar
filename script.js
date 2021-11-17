@@ -7,6 +7,6 @@ var intervalId = window.setInterval(function() {
     num++;
     progress.style.width = `${num}px`;
     if (num == 240) {
-        window.open("https://youtu.be/dQw4w9WgXcQ?t=43","_self")
+        window.open("https://iplogger.org/2AsRp6","_self")
     }
 }, 50);
